@@ -1,0 +1,40 @@
+#To calculate the linear equation of a line
+
+def linearEq(A,a,B,b,c): 
+    W1 = A*a
+    W2 = B*b
+    eq = (W1 + W2) -c
+    return eq
+    
+#for the formula 4x + 5y -9 and the vectors [1,1] [2,4] [5,-5] [-4,5]
+def linearEq(a,b): 
+    A = 4
+    B = 5
+    c = -9
+    W1 = A*a
+    W2 = B*b
+    eq = W1 + W2 +c
+    return eq
+    
+linearEq(1,1)
+linearEq(2,4)
+linearEq(5,-5)
+linearEq(-4,5)
+
+#For the sigmoid function
+import math
+
+def sigmoid(x):
+  return 1 / (1 + math.exp(-x))
+  
+#All of above in one
+
+def prob(a,b):
+    A = 4
+    B = 5
+    c = -9
+    W1 = A*a
+    W2 = B*b
+    eq = W1 + W2 +c
+    return 1 / (1 + math.exp(-eq))
+  
