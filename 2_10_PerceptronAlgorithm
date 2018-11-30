@@ -1,4 +1,4 @@
-#This script will 
+#This script will create a plot of each line the learning perceptron plots and a final line of best fit
 
 #Need to adapt the data file (line 51) and can change the learn rate and epoch in line 56
 
